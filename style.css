@@ -1,0 +1,185 @@
+
+body {
+    max-width: 980px;
+}
+
+.image {
+    position: relative;
+    height: 120px;
+    width: 140px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box-1 {
+    display: inline-block;
+    height: 120px;
+    width: 300px;
+    background-color: grey;
+    margin-right:20px;
+}
+
+.box-2 {
+    display: inline-block;
+    height: 120px;
+    width: 500px;
+    background-color: grey;
+}
+
+header {
+    display: flex;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list-1 {
+    background-color: grey;
+    height: 330px;
+    width: 180px;
+
+}
+
+.list-1 li {
+    font-size: 14px;
+    color: white;
+    margin-left: -33px;
+    margin-top: 7px;
+   
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerText {
+    padding-right: 20px;
+    padding-top: 13px;
+    display: table;
+    text-align: right;
+    float: right;
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    color:white;
+}
+ ul {
+    position:relative;
+    white-space: normal;
+    word-wrap: break-word;
+    padding-top: 5px;
+}
+
+.folders{
+    height: 200px;
+    width: 780px;
+    background-color:lightgray;
+    float: right;
+    margin-top: -33.65%;
+}
+
+.definition {
+    color: gray;
+    padding-left: -10px;
+}
+
+html, body {
+    height: 100%;
+    justify-content: center ;
+    position:relative;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+
+.gallery {
+    padding-left:180px;
+    margin-top: -130px;
+    display: inline-block;
+    max-width: 800px;
+}
+
+.galleryObj {
+    width: 140px; /* Set the width for each image */
+    height: 140px; /* Allow the height to adjust proportionally */
+    margin-left: 20px; /* Add margin between images */
+    margin-top: 20px;
+    float: left; /* Float images to the left */
+}
+
+.leftCornerImage{
+    margin-top: 60px;
+    left: 0; /* Position the image at the left */
+    
+}
+
+.bigTextbox {
+    background-color: lightgray;
+    width: 400px;
+    height: 200px;
+    display:inline-block;
+    margin-left:20px;
+}
+
+.botCenter{
+    top:15px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.bigTextbox p{
+    margin:15px;
+    line-height: 1.5;
+    font-size: 14px;
+    color:  gray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hrLine {
+    position:relative;
+    margin-top:35px;
+}
+
+.footerList-1{
+    list-style:none; /* Remove default list-style */
+    width: 320px;
+    max-height: 185px;
+    background-color: gray;
+    padding:0;
+    margin-top: 0px;
+    margin-right:20px;
+
+}
+
+.footerList-1 ul li{
+    margin-left:0; /* Adjust indentation */
+    line-height: 1.5;
+    font-size: 14px;
+    width:100%; 
+    color:white;
+}
+
+.footerList-2 {
+    font-size:15px;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    height: 185px;
+    width: 300px;
+    background-color:gray;
+    color:white;
+}
+
+footer{
+    display: flex;
+}
+
+.lastBlocks{
+    height:80px;
+    margin-left:20px;
+    margin-bottom:20px; 
+}
